@@ -21,7 +21,7 @@ AUTHOR = "https://github.com/HazyResearch/domino"
 REQUIRES_PYTHON = ">=3.7.0"
 VERSION = main_ns["__version__"]
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 REQUIRED = [
